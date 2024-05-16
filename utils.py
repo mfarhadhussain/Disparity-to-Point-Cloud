@@ -27,9 +27,9 @@ import numpy as np
 #                 z = (f_x * baseline) / d
 #                 x = (u - u_0) * z / f_x
 #                 y = (v - v_0) * z / f_y
-#                 points[v * n_columns + u]  = np.array([x, y, y])
+#                 points[v * n_columns + u]  = np.array([x, y, z])
 #             else:
-#                 points[v * n_columns + u]  = np.array([np.nan, np.nan, np.nana])
+#                 points[v * n_columns + u]  = np.array([np.nan, np.nan, np.nan])
                 
 #     return points[~np.isnan(points).any(axis=1)]
 

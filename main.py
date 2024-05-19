@@ -1,7 +1,6 @@
 import numpy as np
 from matplotlib import pyplot as plt
 import utils
-# from mpl_toolkits.mplot3d import Axes3D
 
 
 
@@ -34,11 +33,11 @@ sc = ax.scatter(points_cloud_camera_scaled[:, 0], points_cloud_camera_scaled[:, 
 
 cbar = plt.colorbar(sc, ax=ax, pad=0.1)
 cbar.set_label("Depth")
-ax.set_title("Point Cloud in Camera Frame")
+ax.set_title("3D Points in Camera Frame with Depth Highlight")
 ax.set_xlabel("X")
 ax.set_ylabel("Y")
 ax.set_zlabel("Z")
-ax.view_init(elev=-90, azim=90)
+ax.view_init(elev=90, azim=-90)
 # plt.savefig("Assignment/camera_frame.png")
 
 plt.show()
@@ -63,7 +62,7 @@ ax = fig.add_subplot(111, projection='3d')
 sc = ax.scatter(points_cloud_base_scaled[:, 0], points_cloud_base_scaled[:, 1], points_cloud_base_scaled[:, 2], c=points_cloud_base_scaled[:, 0], cmap='plasma', s=1, alpha=1.0)
 cbar = plt.colorbar(sc, ax=ax, pad=0.1)
 cbar.set_label("Depth")
-ax.set_title("Point Cloud in Base Frame")
+ax.set_title("3D Points in Base Frame with Depth Highlight")
 ax.set_xlabel("X")
 ax.set_ylabel("Y")
 ax.set_zlabel("Z")

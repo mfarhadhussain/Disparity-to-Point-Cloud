@@ -2,7 +2,9 @@
 3D point cloud of a disparity image in camera frame and robot base frame.
 
 # 3D point calcualtion
-\[ Z(u,v) = \frac{{f_x \cdot B}}{{D(u,v)}} \]
+\[ 
+Z(u,v) = \frac{{f_x \cdot B}}{{D(u,v)}} 
+\]
 \[ X = \frac{{(u - c_x) \cdot Z}}{{f_x}} \]
 \[ Y = \frac{{(v - c_y) \cdot Z}}{{f_y}} \]
 

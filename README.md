@@ -16,7 +16,7 @@ y = \frac{{(v - c_y) \cdot Z}}{{f_y}}
 $$
 
 Where:
-- $'D(u,v)'$ is the disparity at pixel $(u,v)$,
+- $D(u,v)$ is the disparity at pixel $(u,v)$,
 - $'B'$ is the baseline distance between the stereo camera pair,
 - $'(u,v)'$ are the pixel coordinates,
 - $'(c_x, c_y)'$ are the principal point coordinates,

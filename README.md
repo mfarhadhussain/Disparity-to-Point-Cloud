@@ -8,11 +8,11 @@ z = \frac{{f_x \cdot B}}{{D(u,v)}}
 $$
 
 $$
-x = \frac{{(u - c_x) \cdot Z}}{{f_x}}
+x = \frac{{(u - c_x) \cdot z}}{{f_x}}
 $$
 
 $$
-y = \frac{{(v - c_y) \cdot Z}}{{f_y}}
+y = \frac{{(v - c_y) \cdot z}}{{f_y}}
 $$
 
 Where:

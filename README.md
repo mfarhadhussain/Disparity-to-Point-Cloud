@@ -40,5 +40,5 @@ Where:
 </div>
 
 $$
-P_b = b^R_c \cdot P_c 
+P_b = R^b_c \cdot P_c 
 $$
